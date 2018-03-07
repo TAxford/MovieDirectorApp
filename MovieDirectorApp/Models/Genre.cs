@@ -12,9 +12,6 @@ namespace MovieDirectorApp.Models
         public int GenreID { get; set; }
         public string Type { get; set; }
 
-
-
-
         //Navagation Property
         public virtual ICollection<Movie> Movies { get; set; }
     }
