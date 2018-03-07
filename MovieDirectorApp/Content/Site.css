@@ -7,6 +7,7 @@
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    background-image: url('Img/movies.jpg');
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -21,4 +22,350 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+/*Navbar modify*/
+
+.navbar.navbar-inverse.navbar-fixed-top {
+    background-color: black;
+    color: darkslategray;
+}
+
+.navbar-header a.navbar-brand {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+    .navbar-header a.navbar-brand:hover {
+        color: red;
+    }
+
+ul.nav.navbar-nav {
+    background-color: darkslategray;
+}
+
+    ul.nav.navbar-nav li a {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+        color: black;
+    }
+
+        ul.nav.navbar-nav li a:hover {
+            color: red;
+        }
+
+button.navbar-toggle {
+    background-color: darkslategray;
+}
+
+/*Movie App Header*/
+.jumbotron {
+    background-image: url('Img/dvd stack.jpg');
+    background-size: cover;
+}
+
+    .jumbotron h1 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 50px;
+        color: black;
+        padding-left: 425px;
+        font-weight: bold;
+    }
+
+/*Movie Column modify*/
+.col-md-4.Movies {
+    background-color: black;
+    height: 300px;
+    justify-content: center;
+}
+
+    .col-md-4.Movies h2 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: darkslategray;
+        padding-left: 125px;
+        padding-top: 50px;
+        font-weight: bold;
+    }
+
+    .col-md-4.Movies p {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: darkslategray;
+        padding-left: 125px;
+        font-weight: bold;
+    }
+
+        .col-md-4.Movies p a.btn.btn-default {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: black;
+            font-weight: bold;
+            background-color: darkslategray;
+            border: none;
+            border-radius: 60%;
+        }
+
+            .col-md-4.Movies p a.btn.btn-default:hover {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: darkslategray;
+                font-weight: bold;
+                background-color: black;
+                border: none;
+            }
+
+/*Directors Column modify*/
+.col-md-4.Directors {
+    background-color: darkslategray;
+    height: 300px;
+    justify-content: center;
+}
+
+    .col-md-4.Directors h2 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: black;
+        padding-left: 125px;
+        padding-top: 50px;
+        font-weight: bold;
+    }
+
+    .col-md-4.Directors p {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: black;
+        padding-left: 125px;
+        font-weight: bold;
+    }
+
+        .col-md-4.Directors p a.btn.btn-default {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: darkslategray;
+            font-weight: bold;
+            background-color: black;
+            border: none;
+            border-radius: 60%;
+        }
+
+            .col-md-4.Directors p a.btn.btn-default:hover {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: black;
+                font-weight: bold;
+                background-color: darkslategray;
+                border: none;
+            }
+
+/*Genres Column modify*/
+.col-md-4.Genres {
+    background-color: black;
+    height: 300px;
+    justify-content: center;
+}
+
+    .col-md-4.Genres h2 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: darkslategray;
+        padding-left: 125px;
+        padding-top: 50px;
+        font-weight: bold;
+    }
+
+    .col-md-4.Genres p {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: darkslategray;
+        padding-left: 125px;
+        font-weight: bold;
+    }
+
+        .col-md-4.Genres p a.btn.btn-default {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: black;
+            font-weight: bold;
+            background-color: darkslategray;
+            border: none;
+            border-radius: 60%;
+        }
+
+            .col-md-4.Genres p a.btn.btn-default:hover {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: darkslategray;
+                font-weight: bold;
+                background-color: black;
+                border: none;
+            }
+
+/*footer modify*/
+
+footer p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+
+/*Movies Page Modify*/
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    padding-left: 450px;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+p a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+    p a:hover {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: red;
+        font-weight: bold;
+        background-color: black;
+    }
+
+table.table tbody tr th {
+    background-color: black;
+    color: darkslategray;
+}
+
+table.table tbody tr td {
+    background-color: darkslategray;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+    table.table tbody tr td a {
+        color: black;
+    }
+
+        table.table tbody tr td a:hover {
+            color: red;
+        }
+
+
+/*Details modify*/
+
+h4 {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+dl.dl-horizontal {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: darkslategray;
+    padding-left: 400px;
+}
+
+/*Edit modify*/
+
+label.control-label.col-md-2 {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+    a:hover {
+        color: red;
+    }
+
+input#Title.form-control.text-box.single-line {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: darkslategray;
+    border: none;    
+    width:200px;
+}
+
+input#ReleaseDate.form-control.text-box.single-line {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: darkslategray;
+    border: none;
+    width: 200px;
+}
+
+input#RTScore.form-control.text-box.single-line {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: darkslategray;
+    border: none;
+    width: 200px;
+}
+
+input#Rating.form-control.text-box.single-line {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: darkslategray;
+    border: none;
+    width: 200px;
+}
+
+select#DirectorID.form-control {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: darkslategray;
+    border: none;
+    width: 200px;
+}
+
+select#GenreID.form-control {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: darkslategray;
+    border: none;
+    width: 200px;
+}
+
+input.btn.btn-default {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-weight: bold;
+    background-color: darkslategray;
+    border: none;
+    border-radius: 60%;
+}
+
+    input.btn.btn-default:hover {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: darkslategray;
+        font-weight: bold;
+        background-color: black;
+        border: none;
+    }
+
+input#Name.form-control.text-box.single-line {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: darkslategray;
+    border: none;
+    width: 200px;
+}
+
+input#Type.form-control.text-box.single-line {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: darkslategray;
+    border: none;
+    width: 200px;
+}
+
+h3 {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
 }
